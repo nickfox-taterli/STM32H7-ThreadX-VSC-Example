@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [       
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/${workspaceFolderBasename}.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "svdFile": "${workspaceRoot}/.vscode/STM32H743x.svd", 
+            "servertype": "openocd", 
+            "configFiles": [                  
+                "${workspaceRoot}/.vscode/openocd.cfg"
+            ],
+            "preLaunchTask": "build",
+            "showDevDebugOutput":"both",
+            "armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/"
+        }
+    ]
+}

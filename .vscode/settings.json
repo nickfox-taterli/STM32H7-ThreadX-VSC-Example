@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "los_arch_context.h": "c",
+        "stm32h7xx_ll_pwr.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": false
+}
